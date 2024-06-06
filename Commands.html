@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commands</title>
+</head>
+
+<body>
+    <div class="bg" style="background-color: black; color: white;">
+    <h1>GitHub Commands</h1>
+    <div class="content" style="display: flex;">
+        <div class="numbers" style="background-color: lightgrey; color: black; border-radius: 50%; width: 43px; padding: 10px ; margin-right: 20px; display: flex;
+            justify-content: center;
+            align-items: center;">
+            1</div>
+        <h3 class="heading" style="display: flex; font-size: 20px;;">Download Git</h3>
+    </div>
+    <div class="description" style="margin-left: 70px; box-sizing: border-box; padding: 10px;">
+        <p>We need to download and install Git in our systems to use it. Visit the official website
+            <span style="color: blue; text-decoration: underline;">https://www.git-scm.com/downloads</span> to download Git. Choose the type of your system and then
+            download Git.
+        </p>
+        <p>After downloading install Git.</p>
+        <p>If you already have Git installed then you can update to the latest version.</p>
+    </div>
+
+    <div class="content" style="display: flex;">
+        <div class="numbers" style="background-color: lightgrey; color: black; border-radius: 50%; width: 43px; padding: 10px ; margin-right: 20px; display: flex;
+            justify-content: center;
+            align-items: center;">
+            2</div>
+        <h3 class="heading" style="display: flex; font-size: 20px;;">Check if Git is downloaded</h3>
+    </div>
+
+    <div class="description" style="margin-left: 70px; box-sizing: border-box; padding: 10px;">
+        <p>Run the following command in your code editor terminal and check if it shows you the version of Git you are using.</p>
+        <p style="background-color: white; color:black; padding: 10px; width: 50%; border-radius: 10px;">git --version</p>
+    </div>
+
+   <!-- Initializing an empty git repository -->
+    <div class="content" style="display: flex;">
+        <div class="numbers" style="background-color: lightgrey; color: black; border-radius: 50%; width: 43px; padding: 10px ; margin-right: 20px; display: flex;
+            justify-content: center;
+            align-items: center;">
+            3</div>
+        <h3 class="heading" style="display: flex; font-size: 20px;;">Initialize a Git Repository</h3>
+    </div>
+    <div class="description" style="margin-left: 70px; box-sizing: border-box; padding: 10px;">
+        <p>After you complete writing your code and want to save it in Git. First go to your terminal, then navigate to the folder in which your project is located and then run the following command to initialize an empty Git repository.</p>
+        <p style="background-color: white; color:black; padding: 10px; width: 50%; border-radius: 10px;">git init</p>
+    </div>
+
+    <!-- Adding files to the empty Git repository -->
+    <div class="content" style="display: flex;">
+        <div class="numbers" style="background-color: lightgrey;color: black; border-radius: 50%; width: 43px; padding: 10px ; margin-right: 20px; display: flex;
+            justify-content: center;
+            align-items: center;">
+            4</div>
+        <h3 class="heading" style="display: flex; font-size: 20px;;">Add files to Git Repository</h3>
+    </div>
+    <div class="description" style="margin-left: 70px; box-sizing: border-box; padding: 10px;">
+        <p>Next you have to run the following code to add the desired files to your empty Git repository.</p>
+        <p style="background-color: white; color:black; padding: 10px; width: 50%; border-radius: 10px;">git add <span style="color: blue;">file name</span></p>
+    </div>
+
+    <!-- Check status of your file -->
+    <div class="content" style="display: flex;">
+        <div class="numbers" style="background-color: lightgrey;color: black; border-radius: 50%; width: 43px; padding: 10px ; margin-right: 20px; display: flex;
+            justify-content: center;
+            align-items: center;">
+            5</div>
+        <h3 class="heading" style="display: flex; font-size: 20px;;">Check the status of your Git Repository</h3>
+    </div>
+    <div class="description" style="margin-left: 70px; box-sizing: border-box; padding: 10px;">
+        <p>Once you have added the desired files to your Git repository, you have to check the status of your files. Run the following command to check if all the files you staged to the Git repository got staged in your repository. </p>
+        <p style="background-color: white; color:black; padding: 10px; width: 50%; border-radius: 10px;">git status</p>
+        <p>The files that got staged will be displayed in <span style="color: green;">green</span> and the files displayed in <span style="color: red;">red</span> are unstaged files.</p>
+    </div>
+
+    <!-- Commit the staged files -->
+    <div class="content" style="display: flex;">
+        <div class="numbers" style="background-color: lightgrey;color: black; border-radius: 50%; width: 43px; padding: 10px ; margin-right: 20px; display: flex;
+            justify-content: center;
+            align-items: center;">
+            6</div>
+        <h3 class="heading" style="display: flex; font-size: 20px;;">Commit the staged files</h3>
+    </div>
+    <div class="description" style="margin-left: 70px; box-sizing: border-box; padding: 10px;">
+        <p>Next you have to commit the staged files to your repository. Run the following command to commit the changes to the repository.</p>
+        <p style="background-color: white; color:black; padding: 10px; width: 50%; border-radius: 10px;">git commit -m <span style="color: blue;">'your commit message.'</span></p>
+    </div>
+    
+    <!-- Create Repository on GitHub -->
+    <div class="content" style="display: flex;">
+        <div class="numbers" style="background-color: lightgrey;color: black; border-radius: 50%; width: 43px; padding: 10px ; margin-right: 20px; display: flex;
+            justify-content: center;
+            align-items: center;">
+            7</div>
+        <h3 class="heading" style="display: flex; font-size: 20px;;">Create repository on GitHub</h3>
+    </div>
+    <div class="description" style="margin-left: 70px; box-sizing: border-box; padding: 10px;">
+        <p>Visit <span>https://github.com/</span> and create an account if you don't have an account or sign in to your account. Create a new repository.</p>
+    </div>
+
+    <!-- Adding the remote repository to the local repository -->
+    <div class="content" style="display: flex;">
+        <div class="numbers" style="background-color: lightgrey;color: black; border-radius: 50%; width: 43px; padding: 10px ; margin-right: 20px; display: flex;
+            justify-content: center;
+            align-items: center;">
+            8</div>
+        <h3 class="heading" style="display: flex; font-size: 20px;;">Create repository on GitHub</h3>
+    </div>
+    <div class="description" style="margin-left: 70px; box-sizing: border-box; padding: 10px;">
+        <p>In the previous step you have created a remote repository. now you have to add the local repository t=you created to the remote repository. This will allow you to push and pull changed fron this repository itself. Following command will do this.</p>
+        <p style="background-color: white; color:black; padding: 10px; width: 50%; border-radius: 10px;"> git remote add origin <span style="color: blue;">your remote repository link</span></p>
+        <h4>Note:</h4>
+        <p>If you are doing this for the first time, then you will be getting an error "Please tell me who you are."</p>
+        <p>Run the following commands to solve this error.</p>
+        <p style="background-color: white; color:black; padding: 10px; width: 50%; border-radius: 10px; display: inline-block;"> 
+        <span style="display: block;">git config --global user.email"<span style="color: blue;">your email</span>"</span>
+        <span style="display: block;">git config --global user.name"<span style="color: blue;">your name</span>"</span>
+    </p>
+    </div>
+
+        <!-- Rename the current branch-->
+        <div class="content" style="display: flex;">
+            <div class="numbers" style="background-color: lightgrey;color: black; border-radius: 50%; width: 43px; padding: 10px ; margin-right: 20px; display: flex;
+                justify-content: center;
+                align-items: center;">
+                9</div>
+            <h3 class="heading" style="display: flex; font-size: 20px;;">Rename the current branch</h3>
+        </div>
+        <div class="description" style="margin-left: 70px; box-sizing: border-box; padding: 10px;">
+            <p>Run the following command to rename your current branch. "main" is the default branch. By default the file commited saves to the main branch.</p>
+            <p style="background-color: white; color:black; padding: 10px; width: 50%; border-radius: 10px;"> git branch -M main</p>
+        </div>
+
+        <!-- Push local branch to remote repository-->
+        <div class="content" style="display: flex;">
+            <div class="numbers" style="background-color: lightgrey;color: black; border-radius: 50%; width: 43px; padding: 10px ; margin-right: 20px; display: flex;
+                justify-content: center;
+                align-items: center;">
+                10</div>
+            <h3 class="heading" style="display: flex; font-size: 20px;;">Push local branch to remote repository</h3>
+        </div>
+        <div class="description" style="margin-left: 70px; box-sizing: border-box; padding: 10px;">
+            <p>Now run the following command which will push your local repository to the remote repository. <span style="color: blue;">git push</span> will push your code. <span style="color: blue;">origin</span> is the name of the remote repository to push your code to.</p>
+            <p style="background-color: white; color:black; padding: 10px; width: 50%; border-radius: 10px;"> git push -u origin main</p>
+        </div>
+
+        <!-- Check the commit history-->
+        <div class="content" style="display: flex;">
+            <div class="numbers" style="background-color: lightgrey;color: black; border-radius: 50%; width: 43px; padding: 10px ; margin-right: 20px; display: flex;
+                justify-content: center;
+                align-items: center;">
+                11</div>
+            <h3 class="heading" style="display: flex; font-size: 20px;;">Check the commit history</h3>
+        </div>
+        <div class="description" style="margin-left: 70px; box-sizing: border-box; padding: 10px;">
+            <p>Run the following command if you wish to check the commit history./p>
+            <p style="background-color: white; color:black; padding: 10px; width: 50%; border-radius: 10px;"> git log</p>
+        </div>
+
+        <!-- Check the commit history-->
+        <div class="content" style="display: flex;">
+            <div class="numbers" style="background-color: lightgrey;color: black; border-radius: 50%; width: 43px; padding: 10px ; margin-right: 20px; display: flex;
+                justify-content: center;
+                align-items: center;">
+                12</div>
+            <h3 class="heading" style="display: flex; font-size: 20px;;">Check the commit history</h3>
+        </div>
+        <div class="description" style="margin-left: 70px; box-sizing: border-box; padding: 10px;">
+            <p>Run the following command if you wish to check the commit history./p>
+            <p style="background-color: white; color:black; padding: 10px; width: 50%; border-radius: 10px;"> git log</p>
+        </div>
+
+        <!-- Check the commit history-->
+        <div class="content" style="display: flex;">
+            <div class="numbers" style="background-color: lightgrey;color: black; border-radius: 50%; width: 43px; padding: 10px ; margin-right: 20px; display: flex;
+                justify-content: center;
+                align-items: center;">
+                11</div>
+            <h3 class="heading" style="display: flex; font-size: 20px;;">Check the commit history</h3>
+        </div>
+        <div class="description" style="margin-left: 70px; box-sizing: border-box; padding: 10px;">
+            <p>Run the following command if you wish to check the commit history./p>
+            <p style="background-color: white; color:black; padding: 10px; width: 50%; border-radius: 10px;"> git log</p>
+        </div>
+</div>
+</body>
+
+</html>
